@@ -2,12 +2,6 @@
 
 Objectives
 
-Requirements
-- Obtain a copy of the ACAS sxU algorithm to test the logic on the xplane flight simulator
-- Ubuntu 18.04, ROS Melodic
-- XPlane11 Flight Simulator
-- XPlane- Connect Plugin https://github.com/nasa/XPlaneConnect (follow instructions on the link to have the plugin show on the XPlane11 window)
-
 This repository contains packages developed for XPlane11 ACAS SxU simulation, developed during  summer'20 as part of the RISS program at CMU Air Lab. 
 
 ## Getting Started
@@ -16,13 +10,13 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+The software you need to install the software
 
 ```
-*leggedrobotics/darknet_ros
-*angusleigh/leg_tracker
-*rplidar_ros
-*rosaria
+* Obtain a copy of the ACAS sxU algorithm to test the logic on the xplane flight simulator
+* Ubuntu 18.04, ROS Melodic
+* XPlane11 Flight Simulator
+* XPlane- Connect Plugin https://github.com/nasa/XPlaneConnect (follow instructions on the link to have the plugin show on the XPlane11 window)
 
 ### Installing
 
