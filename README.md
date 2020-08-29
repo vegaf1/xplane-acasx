@@ -16,7 +16,7 @@ The software you need to install the software
 *Obtain a copy of the ACAS sxU algorithm to test the logic on the xplane flight simulator
 *Ubuntu 18.04, ROS Melodic
 *XPlane11 Flight Simulator
-*XPlane- Connect Plugin (follow instructions on the link to have the plugin show on the XPlane11 window)
+*XPlane- Connect Plugin (follow instructions on the link below to have the plugin show on the XPlane11 window)
     https://github.com/nasa/XPlaneConnect
 
 ### Installing
