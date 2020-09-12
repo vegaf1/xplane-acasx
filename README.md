@@ -13,11 +13,13 @@ These instructions will get you a copy of the project up and running on your loc
 The software you need to install the software
 
 ```
-*Obtain a copy of the ACAS sxU algorithm to test the logic on the xplane flight simulator
-*Ubuntu 18.04, ROS Melodic
-*XPlane11 Flight Simulator
-*XPlane- Connect Plugin (follow instructions on the link below to have the plugin show on the XPlane11 window)
+* Obtain a copy of the ACAS sxU algorithm to test the logic on the xplane flight simulator
+* Ubuntu 18.04, ROS Melodic
+* XPlane11 Flight Simulator
+* XPlane- Connect Plugin (follow instructions on the link below to have the plugin show on the XPlane11 window)
     https://github.com/nasa/XPlaneConnect
+* Python3
+    
 
 ### Installing
 
@@ -25,12 +27,14 @@ XPlane Connect can be installed with the link shown above. Once installed, make 
 in the following directory: [X-Plane Directory]/Resources/plugins/. This will enable you to use the 
 plugin in the XPlane environment
 
+pip3 install pygame
+
 ## Running
 
 Follow the instructions below:
 
 ```
-To launch the picture frame localization: run the following commands...
+Run the XPlane Application
 * roslaunch usb_cam usb_cam-test.launch
 * roslaunch darknet_ros yolo_v3_custom.launch
 * rosrun cam_angle image_sub.py
