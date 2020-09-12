@@ -35,7 +35,7 @@ Follow the instructions below:
 
 ```
 Run the XPlane Application
-* roslaunch usb_cam usb_cam-test.launch
+* python3 [sxi_ros package] usb_cam-test.launch
 * roslaunch darknet_ros yolo_v3_custom.launch
 * rosrun cam_angle image_sub.py
 * rosrun box_sub box_subscriber
@@ -61,13 +61,9 @@ In order to make a map
 ## Authors
 
 * **Fausto Vega** - *REU student* - [Link](https://github.com/vegaf1)
-* **Santosh Balajee Banisetty** - *Grad Mentor* - [Link](https://github.com/SantoshBanisetty)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Mohammadreza Mousaei** - *Grad Mentor* - [Link](https://github.com/)
 
 ## Acknowledgments
+* Thank you to the Robotic Institute of Summer Scholars (RISS) program at Carnegie Mellon University for this great opportunity. 
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
