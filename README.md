@@ -29,6 +29,9 @@ plugin in the XPlane environment
 
 pip3 install pygame
 
+Move the Taranis folder to the /XPlane/Aircrafts directory. The Taranis is the main aircraft used since it fits the dimensionsions that 
+ACAS sXu requires
+
 ## Running
 
 Follow the instructions below:
