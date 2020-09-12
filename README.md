@@ -25,20 +25,6 @@ XPlane Connect can be installed with the link shown above. Once installed, make 
 in the following directory: [X-Plane Directory]/Resources/plugins/. This will enable you to use the 
 plugin in the XPlane environment
 
-When installing rosaria:
-
-Install libaria: header files 
-
-https://web.archive.org/web/20180205212122/http://robots.mobilerobots.com/wiki/Aria
-
-This is the archive. Download based on the description of your machine. 
-
-Then do a git clone of the rosaria pacakge (linked below)
-
-https://github.com/amor-ros-pkg/rosaria
-
-Need to be done in this order
-
 ## Running
 
 Follow the instructions below:
