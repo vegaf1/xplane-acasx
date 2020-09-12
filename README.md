@@ -37,7 +37,7 @@ ACAS sXu requires
 Follow the instructions below:
 
 ```
-Run the XPlane Application
+Run the XPlane Application, select the Taranis as the main aicraft used.
 * python3 [sxi_ros package] usb_cam-test.launch
 * roslaunch darknet_ros yolo_v3_custom.launch
 * rosrun cam_angle image_sub.py
