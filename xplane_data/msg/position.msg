@@ -1,0 +1,9 @@
+float32 latitude 
+float32 longitude
+float32 altitude
+float32 aileron
+float32 elevator
+float32 rudder
+float32 heading
+float32 v_ew
+float32 v_ns
