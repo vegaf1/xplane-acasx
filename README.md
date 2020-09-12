@@ -21,7 +21,9 @@ The software you need to install the software
 
 ### Installing
 
-XPlane Connect can be installed with the link shown above. Once installed, make sure to put the contents in the following directory: [X-Plane Directory]/Resources/plugins/. This will enable you to use the plugin in the XPlane environment
+XPlane Connect can be installed with the link shown above. Once installed, make sure to put the contents 
+in the following directory: [X-Plane Directory]/Resources/plugins/. This will enable you to use the 
+plugin in the XPlane environment
 
 When installing rosaria:
 
