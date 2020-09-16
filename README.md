@@ -40,29 +40,22 @@ Follow the instructions below:
 Run the XPlane Application, select the Taranis as the main aicraft used., and once you are in the scene,press b to unlock the brakes of the aircraft. 
 Next, run the following script in this order: 
 
-Open a terminal to run each command. 
+Open a terminal to run each command (no pid). 
 * roscore
-* rosrun xplane_data datapublish.py
-* rosrun cam_angle image_sub.py
-* rosrun box_sub box_subscriber
+* rosrun xplane_data datapublish.py (right arrow into pygame window to spawn aircraft )
+* run the following in one terminal: 
+    * export ACASX_JULIA_HOME=$(pwd)/../Julia.1.0.3.linux/bin
+    * export PATH=$(pwd)/../Julia.1.0.3.linux/bin:$PATH
+    * python3 sxu_ros.py
+    
 
-To launch the P3DX Navigation ...
-
-* roslaunch pioneer_nav pioneer_nav.launch 
-* rosrun rosaria Rosaria 
-* roslaunch p3dx_description rviz.launch      
-
-Make sure laser is USB 0 and the USB to serial cable from the pioneer is USB1. Always configure it using:
-
-* chmod a+rw /dev/ttyUSB0
-* chmod a+rw /dev/ttyUSB1
-
-In order to make a map
-* roslaunch teleop_twist_joy teleop.launch (Press the LB  and the arrow keys in order to move the robot around)
-* roslaunch gmapping slam_gmapping_pr2.launch
-
-
-```
+Open a terminal to run each command (pid). 
+* roscore
+* rosrun xplane_data p_control_xplane.py (right arrow into pygame window to spawn aircraft)
+* run the following in one terminal: 
+    * export ACASX_JULIA_HOME=$(pwd)/../Julia.1.0.3.linux/bin
+    * export PATH=$(pwd)/../Julia.1.0.3.linux/bin:$PATH
+    * python3 sxu_ros.py
 
 ## Authors
 
