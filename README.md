@@ -10,7 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-The software you need to install the software
+The software you need to run the program
 
 ```
 * Obtain a copy of the ACAS sxU algorithm to test the logic on the xplane flight simulator
