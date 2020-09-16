@@ -37,9 +37,12 @@ ACAS sXu requires
 Follow the instructions below:
 
 ```
-Run the XPlane Application, select the Taranis as the main aicraft used.
-* python3 [sxi_ros package] usb_cam-test.launch
-* roslaunch darknet_ros yolo_v3_custom.launch
+Run the XPlane Application, select the Taranis as the main aicraft used., and once you are in the scene,press b to unlock the brakes of the aircraft. 
+Next, run the following script in this order: 
+
+Open a terminal to run each command. 
+* roscore
+* rosrun xplane_data datapublish.py
 * rosrun cam_angle image_sub.py
 * rosrun box_sub box_subscriber
 
