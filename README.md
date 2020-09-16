@@ -60,7 +60,7 @@ Open a terminal to run each command (pid).
 ## Authors
 
 * **Fausto Vega** - *REU student* - [Link](https://github.com/vegaf1)
-* **Mohammadreza Mousaei** - *Grad Mentor* - [Link](https://github.com/)
+* **Mohammadreza Mousaei** - *Grad Mentor* - [Link](https://github.com/mmousaei)
 
 ## Acknowledgments
 * Thank you to the Robotic Institute of Summer Scholars (RISS) program at Carnegie Mellon University for this great opportunity. 
